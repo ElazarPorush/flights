@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.addPassenger, .updatePassenger {
+    margin: 5px;
+    width: 70%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.passengers {
+    width: 70%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+select, button, label, input {
+    margin-left: 40px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 10px;
+    height: 40px;
+    width: 95%;
+    border-radius: 15px;
+    padding: 10px;
+}

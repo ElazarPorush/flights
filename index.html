@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flights</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="addPassenger">
+            <h2>Add Passenger</h2>
+            <label for="gender">
+                Gender
+                <input type="radio" name="gender" checked value="male">M
+                <input type="radio" name="gender" value="female">F
+            </label>
+            <input type="text" value="Harry Potter" style="display: none;">
+            <input type="text" value="" placeholder="Name">
+            <select class="addSelect">
+                <option selected disabled>Choose Flight</option>
+            </select>
+            <button onclick="AddPassenger()">Send</button>
+        </div>
+
+        <div class="passengers">
+        </div>
+    </div>
+
+
+    <div class="updatePassenger" style="display: none;">
+        <h2>Update Passenger</h2>
+        <label for="gender">
+            Gender
+            <input type="radio" name="gender" value="male">M
+            <input type="radio" name="gender" value="female">F
+        </label>
+        <input type="text" style="display: none;">
+        <input type="text" style="display: none;">
+        <input type="text" value="" placeholder="Name">
+        <select class="editSelect">
+        </select>
+        <button onclick="UpdatePassenger()">Update</button>
+    </div>
+</body>
+
+</html>
